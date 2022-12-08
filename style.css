@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    background-color: darkgray;
+}
+
+
+
+ul{
+    display: flex;
+    column-gap: 7vw;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul>a{
+    height: fit-content;
+    max-width: fit-content;
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    
+
+    margin-top: 5vh;
+    padding: 20px;
+    border-color: black;
+    border-style: solid;
+    border-radius: .8vw;
+}
+
+ul>a{
+    background-color: rgba(0, 0, 0, .5);
+    
+    transition: 200ms;
+}
+
+ul>a:hover{
+    background-color: rgba(62, 71, 89, 0.8);
+    transition: 200ms;
+}
+
+header{
+    top: 0;
+    margin-top: 0;
+    border-top: 0;
+}
+
+#Home{
+    background-image: url("images/timp-optimized\ \(2\).png");
+    background-color: maroon;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    position: absolute bottom;
+   
+}
+
+
+
+.homepage{
+    background-image: url("images/landscape1_optimized.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.grid>article{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    margin-top: 15%;
+    
+    
+  }
+
+
+  img{
+    width: 500px;
+    height: auto;
+    padding: 5%;
+    display: inline-block;
+    border-radius: 3vw;
+  }
+
+  .textbox{
+    text-align: center;
+    background-color: coral;
+    border-radius: 1vw;
+    width: 450px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+  }
+
+.form{
+    display: grid;
+    width: 30vw;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vw;
+
+}
